@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+h1 {
+	font-weight: 600;
+}
+
+.bg-blur-8 {
+	background-color:rgba(228, 228, 228, 0.504);
+	backdrop-filter: blur(8px)
+}
