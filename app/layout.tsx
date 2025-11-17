@@ -4,7 +4,6 @@ import "./globals.css";
 import Image from "next/image";
 import Balloons from '@/public/png.png'
 import HeartBAllons from '@/public/OIP (4).png'
-import YallowBllon from '@/public/OIP.png'
 import RedBllon from '@/public/OIP (2).png'
 import HeartBallon from '@/public/OIP (3).png'
 
@@ -20,7 +19,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Happy birthday",
-  openGraph: {},
+  openGraph: {
+    title: "Сайт для поздравления Эли",
+    description: "Привет Эля, Этот сайт был разработан Кириллом для поздравления тебя с днем рождения. Исключительно для тебя!!!",
+    siteName: 'Эля Продакшн',
+    images: [
+      {
+        width: 1200,
+        height: 630,
+        url: '/photos/Elya.jpg',
+        alt: 'Это Эля'
+      }
+    ]
+  },
   description: "This app for Eliya",
 };
 

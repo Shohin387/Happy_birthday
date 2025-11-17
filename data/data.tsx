@@ -67,7 +67,7 @@ export const Data: DataI[] = [
 		UName: 'Вараздат',
 		text: 'У Вараздата текста нет',
 		photo: '/photos/Arik.jpg',
-		video: '/Arik.mov' 
+		video: '/Arik.mp4' 
 	},
 
 	{
